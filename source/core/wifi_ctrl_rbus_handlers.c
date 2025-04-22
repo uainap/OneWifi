@@ -3084,7 +3084,7 @@ void bus_register_handlers(wifi_ctrl_t *ctrl)
                                     { bus_data_type_boolean, false, 0, 0, 0, NULL } },
                                 /*{ WIFI_ACCESSPOINT_TABLE, bus_element_type_table,
                                     { NULL, NULL, ap_table_addrowhandler, ap_table_removerowhandler,NULL, NULL}, slow_speed, num_of_vaps,
-                                    { bus_data_type_object, false, 0, 0, 0, NULL } },*/
+                                    { bus_data_type_object, false, 0, 0, 0, NULL } },
                                 { WIFI_ACCESSPOINT_DEV_CONNECTED, bus_element_type_event,
                                     { NULL, NULL, NULL, NULL, eventSubHandler, NULL}, slow_speed, ZERO_TABLE,
                                     { bus_data_type_string, false, 0, 0, 0, NULL } },
@@ -3108,7 +3108,7 @@ void bus_register_handlers(wifi_ctrl_t *ctrl)
                                     { bus_data_type_bytes, false, 0, 0, 0, NULL } },
                                 { WIFI_ACCESSPOINT_RAWFRAME_MGMT_ACTION_TX, bus_element_type_method,
                                     { NULL, send_action_frame, NULL, NULL, NULL, NULL}, high_speed, ZERO_TABLE,
-                                    { bus_data_type_bytes, true, 0, 0, 0, NULL } },
+                                    { bus_data_type_bytes, true, 0, 0, 0, NULL } },*/
                                 { ACCESSPOINT_ASSOC_REQ_EVENT, bus_element_type_method,
                                     { NULL, NULL, NULL, NULL, NULL, NULL}, slow_speed, ZERO_TABLE,
                                     { bus_data_type_string, true, 0, 0, 0, NULL } },
